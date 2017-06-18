@@ -1,0 +1,27 @@
+{
+  "manifest_version": 2,
+  "name": "inShorts in dark",
+  "version": "2.0.1",
+  "homepage_url": "https://github.com/rahulraj-97/NightMode.git",
+  "description": "Read all the data in the Night Mode without straining your eyes much.",
+
+  "icons": {
+    "48": "icons/icon-48.png",
+    "96": "icons/icon-96.png"
+  },
+  "permissions": [
+    "activeTab",
+    "tabs"
+  ],
+  "browser_action": {
+  "browser_style": true,
+  "default_icon": {
+    "19": "icons/icon-19.png",
+    "38": "icons/icon-38.png"
+  },
+  "default_title": "Turn on Night Mode"
+  },
+  "background": {
+    "scripts": ["background.js"]
+  }
+}
